@@ -1,0 +1,5 @@
+        ;MULTIPLICATION OF 2 NUMBERS 
+       MOV AX,0000AH    ;LOAD FIRST NUMBER INTO AX
+       MOV BX,0FFFFH    ;LOAD SECOND NUMBER INTO BX
+       MUL BX	        ;MUL AX AND BX 
+       HLT              ;HALT

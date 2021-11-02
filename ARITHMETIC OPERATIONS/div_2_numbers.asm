@@ -1,0 +1,5 @@
+        ;DIVISION OF 2 NUMBERS 
+       MOV AX,0FFFFH    ;LOAD FIRST NUMBER INTO AX
+       MOV BX,0AH    ;LOAD SECOND NUMBER INTO BX
+       DIV BX	          ;MUL AX AND BX 
+       HLT              ;HALT
